@@ -5,39 +5,35 @@ All notable changes to BookIO QuickScripts will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.0.2] - 2025-01-05
+## [6.0.3] - 2026-01-07
 
 ### Added
-- Application menu bar with File, Edit, View, and Help menus
-- About dialog with system information and copy-to-clipboard functionality
-- Crash/error reporting system for better debugging
-- Session restore feature to recover from unexpected closures
-- Check for Updates functionality in Help menu
-- View Changelog option in Help menu
+- Add auto-download updates with deferred installation
+- Add year rotation manager for automatic folder creation
+- Add system tray integration with minimize-to-tray support
+- Add auto-generated changelog from git commits
+- Add About dialog, public docs, and GitHub Pages integration
+- Add crash/error reporting and session restore features
+- Add View Changelog action plan and update menu bar plan
 
 ### Changed
-- Improved UI consistency across all dialogs
-- Enhanced error handling throughout the application
+- Release v6.0.3
+- Stop tracking local Claude settings file
+- Add local settings and images to gitignore
+- Add Claude Code configuration and move year rotation docs
+- Update app settings and UI components
+- Move completed action plans to old folder and add update manager tests
+- Enhance Check for Updates with config refresh and status detection
+- Update About dialog status and document DOCS_DEPLOY_TOKEN
+- Move implemented action plans to old folder
 
 ### Fixed
-- Various stability improvements
-- Dialog positioning on multi-monitor setups
+- Fix error reporter to fetch app_access config directly from GitHub
 
-## [6.0.1] - 2024-12-15
+## [6.0.2] - 2025-12-26
 
-### Added
-- Initial public release
-- Book Ingest tab for processing book files
-- Scene Ingest tab for scene file management
-- Format Download tab for downloading various formats
-- ZIP Creator tab for packaging files
-- New Project tab for project initialization
-- Diagnostics tab for system health checks
-- Settings panel with configurable options
-
-### Security
-- Implemented secure API key storage
-- Added PII protection for sensitive data
+### Changed
+- Initial commit - v6.0.2 codebase
 
 ---
 
@@ -45,5 +41,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| 6.0.2 | 2025-01-05 | Menu bar, About dialog, crash reporting |
-| 6.0.1 | 2024-12-15 | Initial public release |
+| 6.0.3 | 2026-01-07 | Release v6.0.3, Add auto-download updates with deferred , Stop tracking local Claude settings file |
+| 6.0.2 | 2025-12-26 | Initial commit - v6.0.2 codebase |
