@@ -29,6 +29,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Move implemented action plans to old folder
 
 ### Fixed
+- Simplify taskbar icon loading using external path
+- Extract taskbar icon from EXE itself instead of temp path
+- Prioritize user API config over bundled config in EXE
+- Improve Windows taskbar icon loading with ExtractIconW fallback
 - Bundle icons and changelog in EXE, fix changelog loading
 - Correct test failures in logging and validation tests
 - Fix error reporter to fetch app_access config directly from GitHub
@@ -44,5 +48,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| 6.0.3 | 2026-01-07 | Bundle icons and changelog in EXE, fix c, Correct test failures in logging and val, Reorganize test suite and fix test infra |
+| 6.0.3 | 2026-01-07 | Simplify taskbar icon loading using exte, Extract taskbar icon from EXE itself ins, Prioritize user API config over bundled  |
 | 6.0.2 | 2025-12-26 | Initial commit - v6.0.2 codebase |
