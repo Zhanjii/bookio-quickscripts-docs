@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Move implemented action plans to old folder
 
 ### Fixed
+- Improve Windows taskbar icon loading with multiple fallback methods
 - Simplify taskbar icon loading using external path
 - Extract taskbar icon from EXE itself instead of temp path
 - Prioritize user API config over bundled config in EXE
@@ -48,5 +49,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| 6.0.3 | 2026-01-07 | Simplify taskbar icon loading using exte, Extract taskbar icon from EXE itself ins, Prioritize user API config over bundled  |
+| 6.0.3 | 2026-01-07 | Improve Windows taskbar icon loading wit, Simplify taskbar icon loading using exte, Extract taskbar icon from EXE itself ins |
 | 6.0.2 | 2025-12-26 | Initial commit - v6.0.2 codebase |
