@@ -5,7 +5,7 @@ All notable changes to BookIO QuickScripts will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.0.3] - 2026-01-07
+## [6.0.3] - 2026-01-08
 
 ### Added
 - Add auto-download updates with deferred installation
@@ -17,6 +17,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add View Changelog action plan and update menu bar plan
 
 ### Changed
+- Remove duplicate and placeholder test files
+- Revert "chore: Clean up unused files and update test configurations"
+- Clean up unused files and update test configurations
 - Reorganize test suite and fix test infrastructure
 - Release v6.0.3
 - Stop tracking local Claude settings file
@@ -29,6 +32,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Move implemented action plans to old folder
 
 ### Fixed
+- Make tests cross-platform compatible (macOS/Windows/Linux)
+- Hide system tray settings on macOS where tray is disabled
+- Resolve test deadlock and improve test infrastructure
+- Repair broken tests and add auto-exclusion for test folders
+- Reduce macOS keychain password prompts to single prompt
 - Improve Windows taskbar icon loading with multiple fallback methods
 - Simplify taskbar icon loading using external path
 - Extract taskbar icon from EXE itself instead of temp path
@@ -49,5 +57,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| 6.0.3 | 2026-01-07 | Improve Windows taskbar icon loading wit, Simplify taskbar icon loading using exte, Extract taskbar icon from EXE itself ins |
+| 6.0.3 | 2026-01-08 | Make tests cross-platform compatible (ma, Hide system tray settings on macOS where, Resolve test deadlock and improve test i |
 | 6.0.2 | 2025-12-26 | Initial commit - v6.0.2 codebase |
