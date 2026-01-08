@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add View Changelog action plan and update menu bar plan
 
 ### Changed
+- Reorganize test suite and fix test infrastructure
 - Release v6.0.3
 - Stop tracking local Claude settings file
 - Add local settings and images to gitignore
@@ -28,6 +29,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Move implemented action plans to old folder
 
 ### Fixed
+- Bundle icons and changelog in EXE, fix changelog loading
+- Correct test failures in logging and validation tests
 - Fix error reporter to fetch app_access config directly from GitHub
 
 ## [6.0.2] - 2025-12-26
@@ -41,5 +44,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| 6.0.3 | 2026-01-07 | Release v6.0.3, Add auto-download updates with deferred , Stop tracking local Claude settings file |
+| 6.0.3 | 2026-01-07 | Bundle icons and changelog in EXE, fix c, Correct test failures in logging and val, Reorganize test suite and fix test infra |
 | 6.0.2 | 2025-12-26 | Initial commit - v6.0.2 codebase |
