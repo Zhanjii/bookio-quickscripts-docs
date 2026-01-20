@@ -5,6 +5,36 @@ All notable changes to BookIO QuickScripts will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.0.4] - 2026-01-19
+
+### Added
+- Add encrypted remote config with admin controls and remove legacy format
+- Add development mode to prevent accidental config pushes
+
+### Changed
+- Release: v6.0.4 production build with remote-only admin auth
+- Add migration tool, remote config tab, and technical spec
+- Add TODO finder command and clean up CLAUDE.md
+- Restore production folder templates and add clean-images command
+- Remove coverage minimum threshold
+- Move DMG background image to dedicated folder
+- Add DMG background image to project root
+
+### Improved
+- Optimize GUI tests with mocks and add cross-platform CI
+
+### Fixed
+- PIN persistence on restart and empty media type in zip filenames
+- Ensure API config persists to AppData, not MEIPASS temp directory
+- Increase performance test thresholds for CI
+- Add tkinter mock to session manager roundtrip test
+- Fix 3 pre-existing test failures
+- Include GUI tests in main test run
+- Update development mode tests for new .dev version check
+- Restore cross-platform CI testing (Windows, macOS, Ubuntu)
+- Remove non-existent package and simplify CI to Windows-only
+- Use PEP 440 compliant version format for development mode
+
 ## [6.0.3] - 2026-01-08
 
 ### Added
@@ -57,5 +87,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 6.0.4 | 2026-01-19 | Release: v6.0.4 production build with re, PIN persistence on restart and empty med, Add migration tool, remote config tab, a |
 | 6.0.3 | 2026-01-08 | Make tests cross-platform compatible (ma, Hide system tray settings on macOS where, Resolve test deadlock and improve test i |
 | 6.0.2 | 2025-12-26 | Initial commit - v6.0.2 codebase |
