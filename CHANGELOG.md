@@ -1,3 +1,10 @@
+---
+layout: default
+title: Changelog
+nav_order: 5
+description: "Version history and release notes"
+---
+
 # Changelog
 
 All notable changes to BookIO QuickScripts will be documented in this file.

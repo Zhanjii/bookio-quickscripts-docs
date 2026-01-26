@@ -1,3 +1,10 @@
+---
+layout: default
+title: User Guide
+nav_order: 2
+description: "How to use BookIO QuickScripts"
+---
+
 # Book.io QuickScripts User Guide
 
 ## Table of Contents
