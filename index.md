@@ -1,9 +1,6 @@
 ---
-layout: home
-title: Home
-nav_order: 1
-description: "Workflow automation tools for Book.io"
-permalink: /
+layout: default
+title: BookIO QuickScripts Documentation
 ---
 
 # BookIO QuickScripts

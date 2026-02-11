@@ -1,22 +1,15 @@
----
-layout: default
-title: Installation
-nav_order: 3
-description: "Setup and installation instructions"
----
-
 # Installation Guide
 
 ## Prerequisites
 
 ### System Requirements
 - **Operating System**: Windows 10/11, macOS 10.15+, or Linux (Ubuntu 20.04+)
-- **Python**: 3.8 or higher
+- **Python**: 3.10 or higher
 - **Memory**: Minimum 4GB RAM (8GB recommended)
 - **Storage**: At least 500MB for application and dependencies
 
 ### Required Software
-- Python 3.8+ with pip
+- Python 3.10+ with pip
 - Git (for cloning repository)
 - Visual C++ Build Tools (Windows only, for some dependencies)
 

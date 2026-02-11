@@ -1,10 +1,3 @@
----
-layout: default
-title: User Guide
-nav_order: 2
-description: "How to use BookIO QuickScripts"
----
-
 # Book.io QuickScripts User Guide
 
 ## Table of Contents
@@ -25,7 +18,7 @@ description: "How to use BookIO QuickScripts"
 
 ### System Requirements
 - Windows 10/11, macOS 10.14+, or Linux (Ubuntu 20.04+)
-- Python 3.8 or higher
+- Python 3.10 or higher
 - 4GB RAM minimum (8GB recommended)
 - 500MB free disk space
 

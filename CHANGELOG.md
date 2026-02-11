@@ -1,16 +1,84 @@
----
-layout: default
-title: Changelog
-nav_order: 5
-description: "Version history and release notes"
----
-
 # Changelog
 
 All notable changes to BookIO QuickScripts will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [6.0.5] - 2026-02-11
+
+### Added
+- Add live cover preview canvas to Zip Creator tab
+- Auto-push configs to remote repo when saving in admin mode
+- Add ban sticker tags (BAN, AUDIOBAN, BLACKROCK) to zip_tags config
+- Add logo image integration for blockchains, companies, and stickers
+- Mode-aware title bar styling for all dialogs + CTkMessagebox migration
+- Replace OS color picker with CTkColorPicker
+- Add drag-and-drop tab reordering and simplify settings tabs
+- Make theme list dynamic; fix flaky CI benchmark
+- Add CTk color theme selection with 19 themes
+- Add appearance mode setting (Dark / Light / System)
+- Centralize all hardcoded colors into colors.py and add orange theme
+- Admin/user role-aware UI, config sync, and cross-date project matching
+- Add automatic GitHub issue creation for crash reports
+
+### Changed
+- Release: v6.0.5 — cover preview, 19 themes, tab drag-drop, 4 review passes
+- Test+docs: Add zip creator tests (150) and cover preview documentation
+- Add 7 specialized review agents, commands, and /review-all orchestrator
+- Targeted reviews — thread safety, atomicity, resource leaks, performance, dead code
+- Codebase review, security hardening, and config access unification
+- Restore dmg background image for mac
+- Project cleanup — remove stale files, notes, and build artifacts
+- Remove unused deps and deduplicate config sync boilerplate
+- Tech debt reduction — remove dead code, split god files, add debug logging
+- Gitignore remote-synced config JSONs and action-plans
+- Set plansDirectory to action-plans in settings
+- Update sync commands and add template markers to CLAUDE.md
+- Add bookio and fintech theme files
+- Replace last 10 hardcoded colors with C constants
+- Final sweep — replace 23 more hardcoded colors with C constants
+- Remove working docs from repo
+- Replace remaining hardcoded colors with C constants across 25 files
+- Consolidate colors.py from 44 to 32 constants
+- Remove working audit file from repo
+- Optimize CLAUDE.md and update .gitignore
+- Add *.json.backup to .gitignore and untrack config backup files
+- Sync list_todos.py with claude-code-templates repo
+- Fix all flake8 errors — 461 issues resolved to zero
+- Full lint cleanup — mypy, black, isort all passing with zero errors
+- Sync commands, scripts, and config from templates repo
+- Sync commands and CLAUDE.md from templates repo
+- Bump version to 6.0.5.dev0 for next dev cycle
+
+### Improved
+- Optimize settings dialog Templates and YouTube Links tabs
+
+### Fixed
+- Track bundled config files and sync folder_templates from remote
+- Guard against None stdout in --windowed PyInstaller builds
+- Force app window to foreground on launch and validate screen bounds
+- Use standalone CTk window for activation dialog on all platforms
+- Force activation dialog to foreground in windowed exe mode
+- Google OAuth token resolution and non-blocking authorize flow
+- Review pass 4 — thread safety, crash bugs, resource leaks, performance, dead code, security, and logic bugs
+- Disable error reporter in tests and fix test suite failures
+- Theme change full UI rebuild and image loading improvements
+- Fix 17 silent logic bugs found by targeted review
+- Execute 7 review reports pass 3 — ~37 fixes, ~2,396 net lines removed
+- Execute 7 review reports pass 2 — ~114 fixes, ~1,477 net lines removed
+- Execute 7 codebase review reports — ~80 fixes, ~2,850 lines dead code removed
+- Protect master encryption key chain from security review modifications
+- Eliminate 3 CRITICAL performance UI freeze issues
+- Prevent recurring API key loss and blockchain reappearance
+- Uniform transparent backgrounds for tabs and fix theme-switch tab click bug
+- Recreate menu bar during theme rebuild to prevent stale dropdowns
+- Relax image resize performance threshold for CI runners
+- Allow claude_format.py to accept file paths as CLI arguments
+- Guard against darkdetect crash on macOS for CustomTkinter apps
+- Patch _slack_sdk_available in test to properly simulate missing SDK
+- Quote tk.Event[Any] annotations for Python 3.10/3.11 compatibility
+- Fix DEAs folder name missing media type for non-prefixed media types
 
 ## [6.0.4] - 2026-01-19
 
@@ -94,6 +162,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 6.0.5 | 2026-02-11 | Track bundled config files and sync fold, Guard against None stdout in --windowed , Force app window to foreground on launch |
 | 6.0.4 | 2026-01-19 | Release: v6.0.4 production build with re, PIN persistence on restart and empty med, Add migration tool, remote config tab, a |
 | 6.0.3 | 2026-01-08 | Make tests cross-platform compatible (ma, Hide system tray settings on macOS where, Resolve test deadlock and improve test i |
 | 6.0.2 | 2025-12-26 | Initial commit - v6.0.2 codebase |
