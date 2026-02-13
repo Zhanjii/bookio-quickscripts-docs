@@ -1,3 +1,9 @@
+---
+layout: default
+title: Changelog
+nav_order: 5
+---
+
 # Changelog
 
 All notable changes to BookIO QuickScripts will be documented in this file.
