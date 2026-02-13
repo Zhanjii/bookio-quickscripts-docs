@@ -1,3 +1,9 @@
+---
+layout: default
+title: About
+nav_order: 6
+---
+
 # BookIO QuickScripts Documentation
 
 Welcome to the official documentation for BookIO QuickScripts - workflow automation tools for Book.io.
