@@ -1,9 +1,3 @@
----
-layout: default
-title: About
-nav_order: 6
----
-
 # BookIO QuickScripts Documentation
 
 Welcome to the official documentation for BookIO QuickScripts - workflow automation tools for Book.io.
@@ -21,6 +15,7 @@ BookIO QuickScripts is a desktop application that streamlines eBook production w
 ### Features
 
 - **Book Ingest** - Process and organize book files
+- **Book Profiler** - AI-powered book profiling with radar charts and trailer scripts
 - **Scene Ingest** - Manage scene files efficiently
 - **Format Download** - Download files in various formats
 - **ZIP Creator** - Package files for distribution

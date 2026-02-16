@@ -11,6 +11,30 @@ All notable changes to BookIO QuickScripts will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.0.6] - 2026-02-16
+
+### Added
+- Push admin password changes to remote config repo
+- Add Cover Crop tab, review fixes for cover tabs, and low-credit warning
+- Add Cover Extend tab with AI outpainting for title-safe covers
+- Add book similarity matching engine with Find Similar button
+- Add Book Profiler tab with hierarchical AI analysis pipeline
+
+### Changed
+- Bump version to 6.0.6 for release
+- Update build scripts, radar chart, and docs for Book Profiler
+- Update review commands and add execute-review-fixes
+- Switch docs to Just the Docs theme with dark mode
+- Bump version to 6.0.6.dev for development
+
+### Fixed
+- Persist activation PIN and admin role across app restarts
+- Restore folder_templates.json and add self-healing for missing categories
+- Bundle all dependencies in macOS/Windows build scripts
+- Add cryptography to collect_all in all build scripts
+- Review pass 5 — 29 fixes across 8 categories + platform packaging docs
+- Skip CI tests on version tags and preserve activation across upgrades
+
 ## [6.0.5] - 2026-02-11
 
 ### Added
@@ -168,6 +192,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 6.0.6 | 2026-02-16 | Bump version to 6.0.6 for release, Push admin password changes to remote co, Persist activation PIN and admin role ac |
 | 6.0.5 | 2026-02-11 | Track bundled config files and sync fold, Guard against None stdout in --windowed , Force app window to foreground on launch |
 | 6.0.4 | 2026-01-19 | Release: v6.0.4 production build with re, PIN persistence on restart and empty med, Add migration tool, remote config tab, a |
 | 6.0.3 | 2026-01-08 | Make tests cross-platform compatible (ma, Hide system tray settings on macOS where, Resolve test deadlock and improve test i |

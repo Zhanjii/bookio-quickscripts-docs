@@ -106,7 +106,8 @@ Tabs are organized into functional categories:
 2. **Image Processing**: Image Sorter, Dimension Audit, Format & Download
 3. **Project Management**: New Project, Zip Creator, Change Request
 4. **Content Creation**: Base Generator, Generate Prompts, Multi Prompt
-5. **Utilities**: Diagnostics, Billy, Scene Ingest
+5. **AI Analysis**: Book Profiler, Scene Ingest
+6. **Utilities**: Diagnostics, Billy
 
 ### Common Tab Features
 
