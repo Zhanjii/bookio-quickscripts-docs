@@ -11,6 +11,27 @@ All notable changes to BookIO QuickScripts will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.0.7] - 2026-02-23
+
+### Added
+- Add /keyboard-shortcuts command
+- Add git_guard.py for destructive command blocking
+- Add /claude-updates skill for tracking Anthropic changes
+- Add demand intelligence enhancements to Book Profiler
+
+### Changed
+- Bump version to 6.0.7 for release
+- Sync from templates — generate-plan, claude-updates, remove stale review-codebase
+- Remove stale codebase-section-reviewer agent
+- Sync: Add affordance mapping pattern from templates
+- Sync: Update CLAUDE.md with PROJECT-SPECIFIC markers and sync commands
+- Update Anthropic model list and doc URLs
+- Remove outdated v6.0.5 spec file
+- Bump version to 6.0.7.dev for development
+
+### Fixed
+- Address 38 review findings in Book Profiler
+
 ## [6.0.6] - 2026-02-16
 
 ### Added
@@ -192,6 +213,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 6.0.7 | 2026-02-23 | Bump version to 6.0.7 for release, Sync from templates — generate-plan, cla, Remove stale codebase-section-reviewer a |
 | 6.0.6 | 2026-02-16 | Bump version to 6.0.6 for release, Push admin password changes to remote co, Persist activation PIN and admin role ac |
 | 6.0.5 | 2026-02-11 | Track bundled config files and sync fold, Guard against None stdout in --windowed , Force app window to foreground on launch |
 | 6.0.4 | 2026-01-19 | Release: v6.0.4 production build with re, PIN persistence on restart and empty med, Add migration tool, remote config tab, a |
