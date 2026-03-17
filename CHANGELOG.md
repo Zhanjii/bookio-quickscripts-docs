@@ -11,6 +11,26 @@ All notable changes to BookIO QuickScripts will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.0.8] - 2026-03-16
+
+### Added
+- Add n8n webhook notification integration
+- Add tool-design skill for agent-facing API patterns
+
+### Changed
+- Bump version to 6.0.8 for release
+- Consolidate Claude config, add docs, fix YouTube links persistence
+- Sync: Add tool design consolidation principle to CLAUDE.md
+- Sync: Update from templates repo
+- Bump version to 6.0.8.dev for development
+
+### Fixed
+- Show disabled APIs in Settings and fix empty Slack display names
+- Prevent youtube_links.json from being wiped by sparse user config
+- Make Book Profiler config panel scrollable for small screens
+- Resolve bundled youtube_links.json path in frozen exe builds
+- Restore YouTube links accidentally overwritten in 0f9fd3d
+
 ## [6.0.7] - 2026-02-23
 
 ### Added
@@ -213,6 +233,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 6.0.8 | 2026-03-16 | Bump version to 6.0.8 for release, Show disabled APIs in Settings and fix e, Prevent youtube_links.json from being wi |
 | 6.0.7 | 2026-02-23 | Bump version to 6.0.7 for release, Sync from templates — generate-plan, cla, Remove stale codebase-section-reviewer a |
 | 6.0.6 | 2026-02-16 | Bump version to 6.0.6 for release, Push admin password changes to remote co, Persist activation PIN and admin role ac |
 | 6.0.5 | 2026-02-11 | Track bundled config files and sync fold, Guard against None stdout in --windowed , Force app window to foreground on launch |
