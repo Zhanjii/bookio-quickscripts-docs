@@ -11,6 +11,38 @@ All notable changes to BookIO QuickScripts will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.0.9] - 2026-03-23
+
+### Changed
+- Stop tracking notification_channels.json (already gitignored)
+- Gitignore missing images/ source asset folder
+- Bump version to 6.0.9 for release
+- Remove migrated .claude/ agents and commands, update CLAUDE.md
+- Archive completed n8n webhook integration plan
+- Update build workflow plan with results and archive to old/
+- Plan: add cross-platform build workflow improvement plan
+- Plan: add cross-platform build workflow improvement plan
+- Remove stale config sync artifacts from git tracking
+- Add cd /tmp to bash allow list for remote config updates
+- Bump version to 6.0.9.dev for development
+- Bundle full api_config.json with all 6 APIs for builds
+- Bundle new Slack API encrypted keys for v6.0.8 builds
+
+### Fixed
+- Track bundled folder_templates.json with sticker/logo images
+- Add missing sticker entries to defaults and self-healing startup
+- Restore categories from bundled JSON (preserves sticker images)
+- Correct book type colors, add missing media types and stickers
+- Update dialogs clipped on macOS — increase heights and allow vertical resize
+- Handle None values in n8n webhook config loading
+- Track all encrypted API keys and stop ignoring keys/ directory
+- Restore docs/ directory accidentally deleted in 9f6bf5a
+- Update bundled notification channels (Slack off, n8n on) and clean old docs
+- Auto-sync new bundled APIs and keys for existing users
+
+### Removed
+- Remove plan from wrong folder
+
 ## [6.0.8] - 2026-03-16
 
 ### Added
@@ -233,6 +265,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 6.0.9 | 2026-03-23 | Stop tracking notification_channels.json, Gitignore missing images/ source asset f, Track bundled folder_templates.json with |
 | 6.0.8 | 2026-03-16 | Bump version to 6.0.8 for release, Show disabled APIs in Settings and fix e, Prevent youtube_links.json from being wi |
 | 6.0.7 | 2026-02-23 | Bump version to 6.0.7 for release, Sync from templates — generate-plan, cla, Remove stale codebase-section-reviewer a |
 | 6.0.6 | 2026-02-16 | Bump version to 6.0.6 for release, Push admin password changes to remote co, Persist activation PIN and admin role ac |
