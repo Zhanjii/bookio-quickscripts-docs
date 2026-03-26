@@ -11,6 +11,15 @@ All notable changes to BookIO QuickScripts will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.1.0] - 2026-03-26
+
+### Changed
+- Bump version to 6.1.0 for release
+- Bump version to 6.1.0.dev for development
+
+### Fixed
+- Normalize media type matching for zip metadata and AE bridge
+
 ## [6.0.9] - 2026-03-23
 
 ### Changed
@@ -265,6 +274,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| 6.1.0 | 2026-03-26 | Bump version to 6.1.0 for release, Normalize media type matching for zip me, Bump version to 6.1.0.dev for developmen |
 | 6.0.9 | 2026-03-23 | Stop tracking notification_channels.json, Gitignore missing images/ source asset f, Track bundled folder_templates.json with |
 | 6.0.8 | 2026-03-16 | Bump version to 6.0.8 for release, Show disabled APIs in Settings and fix e, Prevent youtube_links.json from being wi |
 | 6.0.7 | 2026-02-23 | Bump version to 6.0.7 for release, Sync from templates — generate-plan, cla, Remove stale codebase-section-reviewer a |
